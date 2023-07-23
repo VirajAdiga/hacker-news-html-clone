@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>
+            Hacker News
+        </title>
+        <link href="hacker_news_icon.ico" rel="shortcut icon" type="image/x-icon">
+        <style>
+            a:link {
+                text-decoration: none;
+                color: black;
+            }
+            
+            a:visited {
+                text-decoration: none;
+                color: black;
+            }
+            
+            a:hover {
+                text-decoration: none;
+                color: black;
+            }
+            
+            a:active {
+                text-decoration: none;
+                color: black;
+            }
+
+            #thisIsIcon{
+                width: 4%;
+                height: auto;
+            }
+
+            #thisIsList1{
+                list-style-type: none;
+                display: flex;
+                background-image: url('orange.png');
+                font-size: 15px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin-bottom: 0px;
+            }
+
+            body{
+                margin: 0px 110px 0px 110px;
+            }
+
+            #login{
+                padding-left: 250px;
+            }
+
+            #main{
+                background-color: rgb(241, 241, 241);
+            }
+
+            #thisIsList2{
+                padding-left: 50px;
+                font-size: 14px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            #thisIsList2 li{
+                padding-top: 8px;
+            }
+
+            .small{
+                color:grey;
+            }
+
+            .small:hover{
+                text-decoration: underline;
+            }
+
+            .small:visited {
+                color:grey
+            }
+
+            #more{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-left: 50px;
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+
+            #image{
+                width: 1129px;
+                height: 2px;
+            }
+
+            #thisIsList3{
+                list-style-type: none;
+                display: flex;
+                font-size: 12px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin-bottom: 0px;
+                justify-content: center;
+            }
+
+            #searching{
+                text-align: center;
+            }
+
+            #sea{
+                color: grey;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul id="thisIsList1">
+                <li>
+                    <a href="https://news.ycombinator.com/news"><img src="hacker_news_icon.ico" id="thisIsIcon"><b> Hacker News</b></a> 
+                </li>
+                <li class="head">
+                    <a href="https://news.ycombinator.com/newest">new&nbsp;&nbsp;|</a>
+                </li>
+                <li class="head">
+                    <a href="https://news.ycombinator.com/front">&nbsp;&nbsp;past&nbsp;&nbsp;|</a> 
+                </li>
+                <li class="head">
+                    <a href="https://news.ycombinator.com/newcomments">&nbsp;&nbsp;comments&nbsp;&nbsp;|</a> 
+                </li>
+                <li class="head">
+                    <a href="https://news.ycombinator.com/ask">&nbsp;&nbsp;ask&nbsp;&nbsp;|</a> 
+                </li>
+                <li class="head">
+                    <a href="https://news.ycombinator.com/show">&nbsp;&nbsp;show&nbsp;&nbsp;|</a> 
+                </li>
+                <li class="head">
+                    <a href="https://news.ycombinator.com/jobs">&nbsp;&nbsp;jobs&nbsp;&nbsp;|</a> 
+                </li>
+                <li class="head">
+                    <a href="https://news.ycombinator.com/submit">&nbsp;&nbsp;submit</a> 
+                </li>
+                <li id="login">
+                    <a href="https://news.ycombinator.com/login?goto=news">login</a> 
+                </li>
+            </ul>
+        </header>
+        <main id="main">
+            <ol id="thisIsList2">
+                <li>
+                    <a href="https://scopeblog.stanford.edu/2020/03/30/lyme-disease-bacteria-eradicated-by-new-drug-in-early-tests/">Lyme disease bacteria eradicated by new drug in early tests</a>
+                    <a href="https://news.ycombinator.com/from?site=stanford.edu"><small class="small">(stanford.edu)</small></a>
+                </li>
+                <li>
+                    <a href="https://increment.com/programming-languages/crash-course-in-compilers/">A crash course in compilers (2018)</a>
+                    <a href="https://news.ycombinator.com/from?site=increment.com"><small class="small">(increment.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://krebsonsecurity.com/2020/04/war-dialing-tool-exposes-zooms-password-problems/">‘War Dialing’ tool exposes Zoom’s password problems</a>
+                    <a href="https://news.ycombinator.com/from?site=krebsonsecurity.com"><small class="small">(krebsonsecurity.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://archive.org/details/introductiontope00moll/mode/2up">Introduction to Permaculture (1994)</a>
+                    <a href="https://news.ycombinator.com/from?site=archive.org"><small class="small">(archive.org)</small></a>
+                </li>
+                <li>
+                    <a href="https://dl.acm.org/doi/book/10.1145/3335772">ACM has made 'Concurrency: the Works of Leslie Lamport' free to download</a>
+                    <a href="https://news.ycombinator.com/from?site=acm.org"><small class="small">(acm.org)</small></a>
+                </li>
+                <li>
+                    <a href="https://scopeblog.stanford.edu/2020/04/02/whats-a-virus-anyway-part-1-the-bare-bones-basics/">What's a virus, anyway? The bare-bones basics</a>
+                    <a href="https://news.ycombinator.com/from?site=stanford.edu"><small class="small">(stanford.edu)</small></a>
+                </li>
+                <li>
+                    <a href="https://news.ycombinator.com/item?id=22763656">Show HN: Pdf.js Express – PDF annotation, e-signatures, and form filling</a>
+                </li>
+                <li>
+                    <a href="https://www.theatlantic.com/magazine/archive/2020/04/reiki-cant-possibly-work-so-why-does-it/606808/">Reiki can’t possibly work, so why does it?</a>
+                    <a href="https://news.ycombinator.com/from?site=theatlantic.com"><small class="small">(theatlantic.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://www.outsideonline.com/2411125/lynx-vilden-stone-age-life">A Woman Who Lives 200k Years in the Past</a>
+                    <a href="https://news.ycombinator.com/from?site=outsideonline.com"><small class="small">(outsideonline.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://www.nbcnews.com/science/environment/evidence-90-million-year-old-rainforest-uncovered-beneath-antarctic-ice-n1175021">Evidence of 90M-year-old rainforest uncovered beneath Antarctic ice</a>
+                    <a href="https://news.ycombinator.com/from?site=nbcnews.com"><small class="small">(nbcnews.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://github.com/vfilimonov/co2meter">CO2meter: A Python interface to USB CO2 monitor devices</a>
+                    <a href="https://news.ycombinator.com/from?site=github.com"><small class="small">(github.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://github.com/TimeToogo/ff-proxy">Show HN: A UDP to TCP proxy server for sending HTTP requests with zero latency</a>
+                    <a href="https://news.ycombinator.com/from?site=github.com"><small class="small">(github.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://mediasoup.org/">Mediasoup – WebRTC Video Conferencing</a>
+                    <a href="https://news.ycombinator.com/from?site=mediasoup.org"><small class="small">(mediasoup.org)</small></a>
+                </li>
+                <li>
+                    <a href="https://9to5mac.com/2020/04/02/exclusive-iphone-9-launch-imminent-2020-iphone-se-in-red-white-and-black/">Apple Store leaks 4.7-inch ‘iPhone SE’ name</a>
+                    <a href="https://news.ycombinator.com/from?site=9to5mac.com"><small class="small">(9to5mac.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://www.hollywoodreporter.com/thr-esq/call-duty-wins-first-amendment-victory-use-humvees-1287882">'Call of Duty' wins First Amendment victory over use of Humvees</a>
+                    <a href="https://news.ycombinator.com/from?site=hollywoodreporter.com"><small class="small">(hollywoodreporter.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://macintoshgarden.org/apps/ppc-media-center-7x-youtube-streamer-downloader-convertor">YouTube download-and-convert website for ancient browsers</a>
+                    <a href="https://news.ycombinator.com/from?site=macintoshgarden.org"><small class="small">(macintoshgarden.org)</small></a>
+                </li>
+                <li>
+                    <a href="https://htmldom.dev/">How to manage HTML DOM with vanilla JavaScript only?</a>
+                    <a href="https://news.ycombinator.com/from?site=htmldom.dev"><small class="small">(htmldom.dev)</small></a>
+                </li>
+                <li>
+                    <a href="https://abe-winter.github.io/2020/04/01/slopic.html">Slack's core flaws require topic modeling to fix</a>
+                    <a href="https://news.ycombinator.com/from?site=abe-winter.github.io"><small class="small">(abe-winter.github.io)</small></a>
+                </li>
+                <li>
+                    <a href="https://www.quantamagazine.org/to-make-the-perfect-mirror-physicists-confront-the-mystery-of-glass-20200402/">To make the perfect mirror, physicists confront the mystery of glass</a>
+                    <a href="https://news.ycombinator.com/from?site=quantamagazine.org"><small class="small">(quantamagazine.org)</small></a>
+                </li>
+                <li>
+                    <a href="https://netflixtechblog.com/bringing-4k-and-hdr-to-anime-at-netflix-with-sol-levante-fa68105067cd">Bringing 4K and HDR to Anime at Netflix with Sol Levante</a>
+                    <a href="https://news.ycombinator.com/from?site=netflixtechblog.com"><small class="small">(netflixtechblog.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://www.adamjuliangoldstein.com/blog/paranoia-parameter/">The Paranoia Parameter</a>
+                    <a href="https://news.ycombinator.com/from?site=adamjuliangoldstein.com"><small class="small">(adamjuliangoldstein.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://priceonomics.com/the-invention-of-the-aeropress/">The Invention of the AeroPress (2014)</a>
+                    <a href="https://news.ycombinator.com/from?site=priceonomics.com"><small class="small">(priceonomics.com)</small></a>
+                </li>
+                <li>
+                    <a href="http://www.oilshell.org/preview/doc/simple-word-eval.html">Simple Word Evaluation in Oil Shell</a>
+                    <a href="https://news.ycombinator.com/from?site=oilshell.org"><small class="small">(oilshell.org)</small></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=PzEox3szeRc">“Good Enough” Architecture [video]</a>
+                    <a href="https://news.ycombinator.com/from?site=youtube.com"><small class="small">(youtube.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://www.thedrive.com/the-war-zone/32853/this-venezuelan-patrol-ship-sunk-itself-after-ramming-a-cruise-liner-with-an-reinforced-hull">Venezuelan ship sinks itself after ramming cruise liner with a reinforced hull</a>
+                    <a href="https://news.ycombinator.com/from?site=thedrive.com"><small class="small">(thedrive.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://phys.org/news/2020-04-chemistry-difference-cold-hot-brew-coffee.html">Using chemistry to unlock the difference between cold- and hot-brew coffee</a>
+                    <a href="https://news.ycombinator.com/from?site=phys.org"><small class="small">(phys.org)</small></a>
+                </li>
+                <li>
+                    <a href="https://blog.jldc.me/posts/word-storage?ref=hn2">How much space would it take to store every word ever said?</a>
+                    <a href="https://news.ycombinator.com/from?site=jldc.me"><small class="small">(jldc.me)</small></a>
+                </li>
+                <li>
+                    <a href="https://thedarkside.frantzmiccoli.com/how%20to/2020/04/01/twilio-how-tocall-forwarding-and-voice-messaging.html">Using Twilio to make a call forwarding and voice messaging system</a>
+                    <a href="https://news.ycombinator.com/from?site=frantzmiccoli.com"><small class="small">(frantzmiccoli.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://medium.com/@msilvertant/the-most-expensive-typefaces-in-the-world-d025923084f0">The most expensive typefaces (2019)</a>
+                    <a href="https://news.ycombinator.com/from?site=medium.com"><small class="small">(medium.com)</small></a>
+                </li>
+                <li>
+                    <a href="https://www.pluralsight.com/">All Pluralsight videos are free for the month of April</a>
+                    <a href="https://news.ycombinator.com/from?site=pluralsight.com"><small class="small">(pluralsight.com)</small></a>
+                </li>
+            </ol>
+            <p id="more">
+                <a href="https://news.ycombinator.com/news?p=2">More</a>
+            </p>
+            <img src="orange.png" id="image">
+            <footer>
+                <ul id="thisIsList3">
+                    <li>
+                        <a href="https://news.ycombinator.com/newsguidelines.html">Guidelines&nbsp;|</a>
+                    </li>
+                    <li>
+                        <a href="https://news.ycombinator.com/newsfaq.html">&nbsp;FAQ&nbsp;|</a>
+                    </li>
+                    <li>
+                        <a href="mailto:hn@ycombinator.com">&nbsp;Support&nbsp;|</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/HackerNews/API">&nbsp;API&nbsp;|</a>
+                    </li>
+                    <li>
+                        <a href="https://news.ycombinator.com/security.html">&nbsp;Security&nbsp;|</a>
+                    </li>
+                    <li>
+                        <a href="https://news.ycombinator.com/lists">&nbsp;Lists&nbsp;|</a>
+                    </li>
+                    <li>
+                        <a href="https://news.ycombinator.com/bookmarklet.html">&nbsp;Bookmarklet&nbsp;|</a>
+                    </li>
+                    <li>
+                        <a href="http://www.ycombinator.com/legal/">&nbsp;Legal&nbsp;|</a>
+                    </li>
+                    <li>
+                        <a href="http://www.ycombinator.com/apply/">&nbsp;Apply to YC&nbsp;|</a>
+                    </li>
+                    <li>
+                        <a href="mailto:hn@ycombinator.com">&nbsp;Contact</a>
+                    </li>
+                </ul>
+                <p>
+                    <form id="searching">
+                        <label for="search" id="sea">Search:</label>
+                        <input type="text" id="search" name="search">
+                    </form>
+                </p>
+            </footer>
+        </main>
+    </body>
+</html>
